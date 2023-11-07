@@ -69,6 +69,7 @@ function Navbar() {
                     px: 5,
                     color: "#2a284d",
                     display: "block",
+                    fontSize: "15px",
                     fontWeight: "bold",
                     height: "100%",
                   }}
