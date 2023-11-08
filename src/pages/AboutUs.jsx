@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutUs.css"; // Import your CSS file here
 import OurTeam from "./OurTeam";
+import { Button } from "@mui/material";
 
 function AboutUs() {
   return (
@@ -65,6 +66,129 @@ function AboutUs() {
                 resources to those who need it the most, contributing to a
                 brighter and more equitable society.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-12"
+        style={{
+          display: "flex",
+          width: "100%",
+          height: "88px",
+          backgroundColor: "#1976d2",
+          justifyContent: "space-evenly",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{ color: "white", fontWeight: "bold", fontSize: "32px" }}
+          className="mx-5 px-2"
+        >
+          Save Child
+        </div>
+        <div
+          style={{ color: "white", fontWeight: "bold", fontSize: "32px" }}
+          className="mx-5 px-2"
+        >
+          Save Child
+        </div>
+        <div
+          style={{ color: "white", fontWeight: "bold", fontSize: "32px" }}
+          className="mx-5 px-2"
+        >
+          Save Child
+        </div>
+        <div
+          style={{ color: "white", fontWeight: "bold", fontSize: "32px" }}
+          className="mx-5 px-2"
+        >
+          Save Child
+        </div>
+        <div
+          style={{ color: "white", fontWeight: "bold", fontSize: "32px" }}
+          className="mx-5 px-2"
+        >
+          Save Child
+        </div>
+        <div
+          style={{ color: "white", fontWeight: "bold", fontSize: "32px" }}
+          className="mx-5 px-5"
+        >
+          Save Child
+        </div>
+      </div>
+      <div className="container">
+        <h1
+          className="display-5 text-center mb-4"
+          style={{ fontWeight: "bold" }}
+        >
+          Our Programs
+        </h1>
+        <div
+        // className="p-3"
+        // style={{ border: "2px solid", borderRadius: "10px" }}
+        >
+          <div className="row">
+            <div
+              className="col-6 px-4"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              <div>
+                <h1
+                  className="display-5"
+                  style={{ fontWeight: "bold", color: "#1976d2" }}
+                >
+                  Education
+                </h1>
+                <p
+                  className="lead pr-3"
+                  style={{ fontWeight: "bolder", textAlign: "justify" }}
+                >
+                  OpenMinds addresses gaps in education systems with innovative,
+                  low-cost, replicable interventions that span the age spectrum.
+                  Working both directly and through government systems, these
+                  programs collectively reach millions of children and thousands
+                  of school dropouts each year. In “direct” work, a Pratham
+                  instructor works with children either in the school or in the
+                  community.
+                </p>
+                <Button
+                  variant="outlined"
+                  sx={{ fontWeight: "bold", color: "#1976d2" }}
+                >
+                  Learn More
+                </Button>
+              </div>
+            </div>
+            <div className="col-6">
+              <img
+                src="images/edu-1.jpg"
+                className="rounded mx-auto d-block"
+                alt="our aim image 1"
+                style={{ maxWidth: "100%", maxHeight: "100%", width: "100%" }}
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="col-6"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              <img
+                src="images/edu-2.jpg"
+                className="rounded mx-auto d-block"
+                alt="our aim image 1"
+                style={{ maxWidth: "100%", maxHeight: "100%" }}
+              />
+            </div>
+            <div className="col-6">
+              <img
+                src="images/our mission image.jpg"
+                className="rounded mx-auto d-block"
+                alt="our aim image 1"
+                style={{ maxWidth: "100%", maxHeight: "100%" }}
+              />
             </div>
           </div>
         </div>
