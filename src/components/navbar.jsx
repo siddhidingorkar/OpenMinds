@@ -37,7 +37,7 @@ function Navbar() {
 
   return (
     <ThemeProvider theme={theme}>
-      <AppBar sx={{ backgroundColor: "#dedee2" }} position="static">
+      <AppBar position="static" className="fixed">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
@@ -51,7 +51,7 @@ function Navbar() {
                 display: { xs: "none", md: "flex" },
                 fontWeight: "bold",
                 letterSpacing: ".3rem",
-                color: "#2a284d",
+                color: "white",
                 textDecoration: "none",
               }}
             >
@@ -67,8 +67,9 @@ function Navbar() {
                   sx={{
                     my: 2,
                     px: 5,
-                    color: "#2a284d",
+                    color: "white",
                     display: "block",
+                    fontSize: "15px",
                     fontWeight: "bold",
                     height: "100%",
                   }}
